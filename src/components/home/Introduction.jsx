@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <div className="flex flex-col space-y-4">
       <div className="flex flex-row space-x-4 items-center">
-        <div className="w-12 h-12">
+        <div className="w-20 h-20">
           <img src={profilePicture} alt="Greg King" className="rounded-full" />
         </div>
         <div>
@@ -14,7 +14,7 @@ const Introduction = () => {
       </div>
       <div>
         <p className="text-sm">
-          I'm a Full Stack Software Developer with expertise in React, Node.js,
+          Full Stack Software Developer with expertise in React, Node.js,
           PostgreSQL, and AWS.
         </p>
         <p className="text-sm">
