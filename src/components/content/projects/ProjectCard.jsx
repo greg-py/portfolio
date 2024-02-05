@@ -1,13 +1,12 @@
-import Button from "../../layout/Button";
-
-const ProjectDescription = (props) => {
+const ProjectCard = (props) => {
   const { project } = props;
 
   return (
     <div>
-      <h3 className="font-bold text-lg text-sky-400">{project.title}</h3>
-      <div className="mb-4">
+      <h3 className="font-bold text-lg text-sky-300">{project.title}</h3>
+      <div className="flex flex-row justify-between mb-4 text-gray-100">
         <h4>{project.location}</h4>
+        <p>{project.time}</p>
       </div>
       <ul className="list-disc pl-4 space-y-2 text-sm">
         {project.accomplishments &&
@@ -20,14 +19,9 @@ const ProjectDescription = (props) => {
           <span className="font-bold">Skills Demonstrated:</span>{" "}
           {project && project.skills?.join(", ")}
         </p>
-        {project.link && (
-          <div className="mt-4">
-            <Button>{project.linkText}</Button>
-          </div>
-        )}
       </div>
     </div>
   );
 };
 
-export default ProjectDescription;
+export default ProjectCard;

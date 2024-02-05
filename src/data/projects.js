@@ -1,7 +1,8 @@
 export const projects = [
   {
     title: "Apache Kafka Consumer Service",
-    location: "XSOLIS, 2023",
+    location: "XSOLIS",
+    time: "2023",
     skills: ["Apache Kafka", "Node.js", "TypeScript", "PostgreSQL", "AWS"],
     accomplishments: [
       "Developed a service in Node.js with TypeScript for consuming messages on a Kafka event stream for healthcare data",
@@ -13,7 +14,8 @@ export const projects = [
   },
   {
     title: "Arbitrator Intelligence Web Application",
-    location: "Arbitrator Intelligence, 2021",
+    location: "Arbitrator Intelligence",
+    time: "2021",
     skills: ["React", "Next.js", "PostgreSQL", "Auth0 SSO"],
     accomplishments: [
       "Developed a web application to host the marketing material, account management, and product features for a legal-tech startup",
@@ -26,7 +28,8 @@ export const projects = [
   },
   {
     title: "PA State Legislature Analysis Web Application",
-    location: "Personal, 2021",
+    location: "Personal",
+    time: "2021",
     skills: [
       "Python",
       "Django",

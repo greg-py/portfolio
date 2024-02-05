@@ -1,4 +1,4 @@
-export const jobs = [
+export const positions = [
   {
     title: "XSOLIS - Software Engineer II",
     location: "Nashville, TN (Remote)",
