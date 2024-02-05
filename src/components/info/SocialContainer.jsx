@@ -1,6 +1,6 @@
 const SocialContainer = ({ children }) => {
   return (
-    <div className="grid grid-cols-4 grid-rows-1 w-1/2 text-gray-900">
+    <div className="flex flex-row space-x-4 text-gray-900 fixed bottom-12">
       {children}
     </div>
   );

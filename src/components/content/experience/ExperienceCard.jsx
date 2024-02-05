@@ -4,16 +4,11 @@ const ExperienceCard = (props) => {
   return (
     <div>
       <h3 className="font-bold text-lg text-sky-300">{position.title}</h3>
-      <div className="flex flex-row justify-between mb-4 text-gray-100">
+      <div className="flex flex-row justify-between mb-3 text-gray-100">
         <h4>{position.location}</h4>
         <p>{position.time}</p>
       </div>
-      <ul className="list-disc pl-4 space-y-2 text-sm">
-        {position.responsibilities &&
-          position.responsibilities.map((r) => {
-            return <li>{r}</li>;
-          })}
-      </ul>
+      <p className="text-sm">{position.text}</p>
     </div>
   );
 };
