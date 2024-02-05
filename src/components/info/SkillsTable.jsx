@@ -12,9 +12,9 @@ const SkillsTable = (props) => {
         </thead>
         <tbody>
           {skills &&
-            skills.map((s) => {
+            skills.map((s, index) => {
               return (
-                <tr className="even:bg-gray-800 text-xs">
+                <tr key={index} className="even:bg-gray-800 text-xs">
                   <td className="px-6 py-1 text-gray-300">{s.text}</td>
                   <td>{s.years}</td>
                 </tr>

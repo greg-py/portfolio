@@ -18,8 +18,8 @@ const ProjectCard = (props) => {
       <p className="text-sm">{project.text}</p>
       <div className="mt-2 text-xs text-gray-100">
         {project &&
-          project.skills?.map((s) => {
-            return <ProjectLabel label={s} />;
+          project.skills?.map((s, index) => {
+            return <ProjectLabel key={index} label={s} />;
           })}
       </div>
     </a>

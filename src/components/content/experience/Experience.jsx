@@ -9,8 +9,8 @@ const Experience = () => {
         Professional Experience
       </h2>
       {positions &&
-        positions.map((p) => {
-          return <ExperienceCard position={p} />;
+        positions.map((p, index) => {
+          return <ExperienceCard key={index} position={p} />;
         })}
     </ExperienceContainer>
   );

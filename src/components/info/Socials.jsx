@@ -30,8 +30,8 @@ const Socials = () => {
   return (
     <SocialContainer>
       {socials &&
-        socials.map((s) => {
-          return <SocialCard href={s.href} icon={s.icon} />;
+        socials.map((s, index) => {
+          return <SocialCard key={index} href={s.href} icon={s.icon} />;
         })}
     </SocialContainer>
   );

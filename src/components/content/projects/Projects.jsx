@@ -7,8 +7,8 @@ const Projects = () => {
     <ProjectsContainer>
       <h2 className="font-bold text-2xl text-gray-100">Projects</h2>
       {projects &&
-        projects.map((p) => {
-          return <ProjectCard project={p} />;
+        projects.map((p, index) => {
+          return <ProjectCard key={index} project={p} />;
         })}
     </ProjectsContainer>
   );
