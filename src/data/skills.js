@@ -27,4 +27,12 @@ export const skills = [
     text: "SQL Server",
     years: 2,
   },
+  {
+    text: "AWS",
+    years: 2,
+  },
+  {
+    text: "Apache Kafka",
+    years: 2,
+  },
 ];
