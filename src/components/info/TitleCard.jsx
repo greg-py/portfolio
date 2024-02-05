@@ -9,6 +9,7 @@ const TitleCard = () => {
       <div>
         <h1 className="font-bold text-3xl text-gray-100">Greg King</h1>
         <h2 className="text-lg text-gray-300">Full Stack Software Developer</h2>
+        <p className="text-md text-gray-400">Pittsburgh, PA</p>
       </div>
     </div>
   );
