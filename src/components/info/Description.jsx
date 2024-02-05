@@ -8,7 +8,7 @@ const Description = () => {
       {<DescriptionHighlight text={"Node.js"} />},{" "}
       {<DescriptionHighlight text={"TypeScript"} />},{" "}
       {<DescriptionHighlight text={"PostgreSQL"} />}, and{" "}
-      {<DescriptionHighlight text={"AWS"} />}
+      {<DescriptionHighlight text={"AWS"} />}.
     </p>
   );
 };
