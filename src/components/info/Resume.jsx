@@ -1,20 +1,15 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import resume from "../../media/resume.pdf";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const Resume = () => {
   return (
-    <div className="inline-block flex flex-row items-center space-x-1">
-      <FontAwesomeIcon className="w-4 h-4 text-gray-300" icon={faFilePdf} />
-      <a
-        className="text-sky-400"
-        href={resume}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View Résumé
-      </a>
-    </div>
+    <a
+      href={resume}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="py-2 px-3 text-xs uppercase bg-sky-400 text-gray-100 font-bold rounded-lg max-w-28 hover:bg-sky-500 hover:duration-100"
+    >
+      View Résumé
+    </a>
   );
 };
 
