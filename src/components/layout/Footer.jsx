@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
-    <div className="w-full text-center py-12">
+    <div className="w-full text-center pb-6 lg:p-0">
       <p>
         Made with <span className="text-red-400">&hearts;</span> using{" "}
-        <span className="text-sky-300">React</span> and{" "}
-        <span className="text-sky-300">TailwindCSS</span>.
+        <span className="text-sky-400">React</span> and{" "}
+        <span className="text-sky-400">TailwindCSS</span>.
       </p>
       <p>
-        Deployed with <span className="text-sky-300">Github Pages</span>.
+        Deployed with <span className="text-sky-400">Github Pages</span>.
       </p>
     </div>
   );

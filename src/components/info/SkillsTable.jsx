@@ -4,7 +4,7 @@ const SkillsTable = (props) => {
   return (
     <div className="relative overflow-x-auto rounded-lg border border-gray-800">
       <table className="table-auto w-full text-sm">
-        <thead className="text-xs text-gray-100 bg-sky-300 uppercase">
+        <thead className="text-xs text-gray-100 bg-sky-400 uppercase">
           <tr>
             <th className="px-6 py-1 text-start">Skill</th>
             <th className="px-6 py-1 text-end">Years</th>
