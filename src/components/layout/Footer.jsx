@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="w-full text-center pb-6 lg:p-0">
+    <div className="w-full text-center pt-12 pb-24">
       <p>
         Made with <span className="text-red-400">&hearts;</span> using{" "}
         <span className="text-sky-400">React</span> and{" "}
