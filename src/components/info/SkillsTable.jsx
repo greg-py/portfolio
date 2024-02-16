@@ -7,7 +7,7 @@ const SkillsTable = (props) => {
         <thead className="text-xs text-gray-100 bg-sky-400 uppercase">
           <tr>
             <th className="px-6 py-1 text-start">Skill</th>
-            <th className="px-6 py-1 text-end">Years of Experience</th>
+            <th className="px-6 py-1 text-end">Years</th>
           </tr>
         </thead>
         <tbody>

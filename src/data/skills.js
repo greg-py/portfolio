@@ -24,7 +24,19 @@ export const skills = [
     years: 2,
   },
   {
+    text: "GraphQL",
+    years: 2,
+  },
+  {
     text: "Python",
+    years: 2,
+  },
+  {
+    text: "MongoDB",
+    years: 2,
+  },
+  {
+    text: "Docker",
     years: 2,
   },
   {
@@ -33,10 +45,6 @@ export const skills = [
   },
   {
     text: "Apache Kafka",
-    years: 2,
-  },
-  {
-    text: "Microsoft Power BI",
     years: 2,
   },
 ];
