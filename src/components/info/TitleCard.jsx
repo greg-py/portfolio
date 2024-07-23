@@ -13,7 +13,7 @@ const TitleCard = () => {
         <h2 className="text-md text-gray-300 lg:text-lg">
           Full Stack Software Developer
         </h2>
-        <p className="text-sm text-gray-400 lg:text-md">Pittsburgh, PA</p>
+        <p className="text-sm text-gray-400 lg:text-md">Washington, D.C.</p>
       </div>
     </div>
   );

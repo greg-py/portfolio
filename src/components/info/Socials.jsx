@@ -18,7 +18,7 @@ const Socials = () => {
       icon: faLinkedin,
     },
     {
-      href: "https://github.com/npmigreg",
+      href: "https://github.com/greg-py",
       icon: faGithub,
     },
     {

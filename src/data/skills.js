@@ -1,50 +1,59 @@
+import { differenceInYears } from "date-fns";
+
+const originalSkillDate = new Date("2019-01-01");
+const recentSkillDate = new Date("2021-01-01");
+const nowDate = new Date();
+
+const originalSkillYears = differenceInYears(nowDate, originalSkillDate);
+const recentSkillYears = differenceInYears(nowDate, recentSkillDate);
+
 export const skills = [
   {
     text: "JavaScript",
-    years: 4,
+    years: originalSkillYears,
   },
   {
     text: "TypeScript",
-    years: 4,
+    years: originalSkillYears,
   },
   {
     text: "React",
-    years: 4,
+    years: originalSkillYears,
   },
   {
     text: "Node.js",
-    years: 4,
+    years: originalSkillYears,
   },
   {
     text: "PostgreSQL",
-    years: 4,
+    years: originalSkillYears,
   },
   {
     text: "SQL Server",
-    years: 2,
+    years: recentSkillYears,
   },
   {
     text: "GraphQL",
-    years: 2,
+    years: recentSkillYears,
   },
   {
     text: "Python",
-    years: 2,
+    years: recentSkillYears,
   },
   {
     text: "MongoDB",
-    years: 2,
+    years: recentSkillYears,
   },
   {
     text: "Docker",
-    years: 2,
+    years: recentSkillYears,
   },
   {
     text: "AWS",
-    years: 2,
+    years: recentSkillYears,
   },
   {
     text: "Apache Kafka",
-    years: 2,
+    years: recentSkillYears,
   },
 ];

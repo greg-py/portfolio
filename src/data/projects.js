@@ -28,6 +28,6 @@ export const projects = [
       "PostgreSQL",
     ],
     text: "Wrote and scheduled Python scripts to scrape the PA State Legislature website with Beautiful Soup and RabbitMQ and displayed the analysis of recent bill data with ChartJS data visualizations on a web application built with Python Django. Used topic analysis in Natural Language Processing to process bill text and descriptions.",
-    href: "https://github.com/npmigreg/pa-general-assembly",
+    href: "https://github.com/greg-py/pa-general-assembly",
   },
 ];
